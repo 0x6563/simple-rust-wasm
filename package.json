@@ -1,0 +1,23 @@
+{
+  "name": "simple-rust-wasm",
+  "version": "1.0.0",
+  "description": "A simple Rust WASM example",
+  "main": "index.js",
+  "scripts": {
+    "start": "serve app",
+    "build": "wasm-pack build app --target web"
+  },
+  "devDependencies": {
+    "serve": "^14.2.1"
+  },
+  "author": "0x6563",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/0x6563/simple-rust-wasm.git"
+  },
+  "bugs": {
+    "url": "https://github.com/0x6563/simple-rust-wasm/issues"
+  },
+  "homepage": "https://github.com/0x6563/simple-rust-wasm#readme",
+  "license": "(MIT OR Apache-2.0)"
+}

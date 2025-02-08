@@ -8,7 +8,7 @@
     "build": "wasm-pack build app --target web"
   },
   "devDependencies": {
-    "serve": "^14.2.1"
+    "serve": "^14.2.4"
   },
   "author": "0x6563",
   "repository": {

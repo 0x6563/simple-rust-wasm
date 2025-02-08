@@ -1,12 +1,10 @@
-extern crate cfg_if;
-extern crate wasm_bindgen;
-extern crate web_sys;
-
-mod utils;
-
+use wasm_bindgen;
+use web_sys;
 use std::fmt;
 use wasm_bindgen::prelude::*;
 use web_sys::console;
+
+mod utils;
 
 pub struct Timer<'a> {
     name: &'a str,
